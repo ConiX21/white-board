@@ -1,0 +1,37 @@
+<!DOCTYPE Html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="scripts/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="scripts/animate.css/animate.min.css" rel="stylesheet" />
+    <script src="scripts/jquery/dist/jquery.min.js"></script>
+    <script src="scripts/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scripts/mustache.js/mustache.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <button class="btn btn-success" data-color="green" data-type="rect">Add green rectangle</button>
+            <button class="btn btn-warning" data-color="orange" data-type="rect">Add orange rectangle</button>
+            <button class="btn btn-danger" data-color="red" data-type="line">Add red line</button>
+            <button class="btn btn-default">Clear</button>
+            <input type="color">
+            <input type="range" min="1" max="30"><label></label>px
+
+            <input type="radio" checked name="socket" value="receive">receive
+            <input type="radio" name="socket" value="emit">emit
+            
+        </div>
+        <div class="row">
+            <canvas></canvas>
+        </div>
+    </div>
+    <script src="scripts/canvas.js"></script>
+</body>
+
+</html>
